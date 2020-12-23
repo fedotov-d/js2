@@ -1,0 +1,28 @@
+main, header,  footer {
+    display: block;
+}
+main.container {
+    margin-top: 60px;
+}
+.container {
+    width: 960px;
+    margin: auto;
+}
+.goods-list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.goods-item {
+    display: block;
+    width: 22%;
+    margin: 10px 10px 15px;
+    border: #EEEEEE solid 1px;
+    border-radius: 3px;
+    -webkit-box-shadow: #F5F5F5 0 0 6px;
+    box-shadow: #F5F5F5 0 0 6px;
+    text-align: center;
+}
